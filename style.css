@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Vesper Libre', serif;
+}
+header{
+    width: 100vw;
+    height:100vh;
+
+
+}
+
+nav{
+ 
+    width: 90%;
+    margin:10px auto;
+    text-align: right;
+  
+
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    
+    color:rgb(248, 76, 104);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing:1px;
+     
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.main-container{
+width: 90%;
+height: 85%;
+border:1px solid lightpink;
+margin: auto auto;
+text-align: center;
+background-image:url(donuts.jpg);
+background-size: cover;
+background-position: center;
+
+
+}
+.main-heading{
+    color:rgb(248, 76, 104);
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.second-heading{
+    color: #ffffDD;
+    font-size: 35px;
+    font-style: italic; 
+}
+.tit{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 240%;
+    color:rgb(255, 50, 118);
+    font-style: bold;
+
+}
+.about{
+    width: 100vw;
+    height: 90vh;
+
+}
+.main-div{
+  
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    
+    width: 45%;
+    font-size: 20px;
+    color:rgb(241, 42, 75);
+    line-height: 230%;
+    
+}
+.right{
+   
+    width: 50%;
+    height: 400px;
+    margin-left: 10%;
+}
+
+.top-row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+.grid-one{
+   width: 50%;
+   height: 200px;
+   background-image: url("donuts2.jpg");
+   background-position: center;
+   background-size: cover;
+
+
+
+
+}
+.grid-two{
+    width: 50%;
+    height: 200px;
+    background-image: url("2.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.grid-three{
+    width: 50%;
+    height: 200px;
+    background-image: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.grid-four{
+    width: 50%;
+    height: 200px;
+    background-image: url("3.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.donuts{
+    width: 100vw;
+}
+.image-container{
+    width: 100%;
+}
+.row-one,.row-two,.row-three{
+
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.grid-item{
+    border: 2px solid pink;
+    width: 30%;
+    height: 310px;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.grid-item:hover{
+    opacity: 0.6;
+}
+#d1{
+background-image: url("a.jpg");
+}
+#d2{
+    background-image: url("b.jpg");
+    }
+    #d3{
+        background-image: url("c.jpg");
+        }
+        #d4{
+            background-image: url("d.jpg");
+            }
+            #d5{
+                background-image: url("e.jpg");
+                }
+                #d6{
+                    background-image: url("f.jpg");
+                    }
+                    #d7{
+                        background-image: url("g.jpg");
+                       
+                        }
+                        #d8{
+                            background-image: url("h.jpg");
+                            }
+                            #d9{
+                                background-image: url("1.jpg");
+                                }
+
+.stores{
+    width: 100vw;
+}
+.stores-container{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+}
+.grid-items{
+    width: 30%;
+    height: 240px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 230%;
+   color:rgb(241, 42, 75); 
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+.main-contacts{
+    width:100vw;
+    height: 50vh;
+    background-color: rgb(255, 50, 118);
+    color: seashell;
+    text-align: center;
+    
+}
+.contacts-title{
+    color: seashell;
+    font-size: 250%;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+}
+.email{
+    color: seashell;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pxs;
+    text-align: center;
+
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50vw;
+    margin: 0 auto ;
+
+}
+.social-media-icon{
+    margin: 0px 7.5px;
+}
